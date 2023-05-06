@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun with Triangles</div>
+        <ul class="list-non-bullet nav-list">
+            <li class="list-item-inline">
+                <a href="index.html" class="link">Is Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="hypotenuse.html" class="link">Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="area.html" class="link">Area of Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="quiz.html" class="link link-active">Quiz</a>
+            </li>
+        </ul>
+    </nav>
+    <h1 id="page-heading">Triangle Quiz</h1>
+    <form class="quiz-form">
+        <div class="question-container">
+            <label> 
+                <h3>What is a triangle?</h3>
+                <input type="radio" name="question1" value="A geometric figure">A geometric figure
+                <input  type="radio" name="question1" value="An form of architecture">An form of architecture
+                <input  type="radio" name="question1" value="A piece of art">A piece of art
+            </label>
+        </div>
+        <div class="question-container">
+            <label>
+                <h3>Which group does the triangle belong to?</h3>
+                <input  type="radio" name="question2" value="Polydor">Polydor
+                <input type="radio" name="question2" value="Potter">Potter
+                <input type="radio" name="question2" value="Polygon">Polygon
+            </label>
+        </div>
+        <div class="question-container">
+            <label>
+                <h3>How many edges does a triangle have?</h3>
+                <input  type="radio" name="question3" value="3">3
+                <input type="radio" name="question3" value="2">2
+                <input type="radio" name="question3" value="4">4
+            </label>
+        </div>
+        <div class="question-container">
+            <label>
+                <h3>What is the name of a triangle with equal vertices?</h3>
+                <input  type="radio" name="question4" value="Equilateral">Equilateral
+                <input type="radio" name="question4" value="Isosceles">Isosceles
+                <input type="radio" name="question4" value="Triennial">Triennial
+            </label>
+        </div>
+        <div class="question-container">
+            <label>
+                <h3>What is the name of the triangle with no equal sides?</h3>
+                <input  type="radio" name="question5" value="Scalene">Scalene
+                <input type="radio" name="question5" value="Equilateral">Equilateral
+                <input type="radio" name="question5" value="Isosceles">Isosceles
+            </label>
+        </div>
+        <div class="question-container">
+            <label>
+                <h3>What is the name of a triangle with two equal vertices and one different vertice?</h3>
+                <input  type="radio" name="question6" value="Plato">Plato
+                <input type="radio" name="question6" value="Isosceles">Isosceles
+                <input type="radio" name="question6" value="Scalene">Scalene
+            </label>
+        </div>
+        <div class="question-container">
+            <label>
+                <h3>What is the longest side of a triangle called?</h3>
+                <input  type="radio" name="question7" value="Hyppo">Hyppo
+                <input type="radio" name="question7" value="Hypopothamus">Hypopothamus
+                <input type="radio" name="question7" value="Hypotenuse">Hypotenuse
+            </label>
+        </div>
+        <div class="question-container">
+            <label>
+                <h3>There is a right triangle PQR where: angle Q = 90°; angle P = angle R. What is the measure of angles P and R?</h3>
+                <input  type="radio" name="question8" value="85°">85°
+                <input type="radio" name="question8" value="45°">45°
+                <input type="radio" name="question8" value="65°">65°
+            </label>
+        </div>
+    </form>
+    <button id="btn-submit">Submit</button>
+    <h4 id="output-message"></h4>
+    <footer class="quiz-footer">
+        <div class="footer-head">
+            Social Media Presence
+        </div>
+        <ul class="social-link list-non-bullet">
+            <li class="list-item-inline">
+                <a href="" target="_blank" class="link">LinkedIn</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="" target="_blank" class="link">GitHub</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+:root {
+    --primary-color: blueviolet;
+}
+body{
+    margin: auto;
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding: 0.5rem 0rem;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .nav-list {
+    text-align: right;
+    font-family: 'Kalam', cursive;
+    font-size: larger;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    text-align: left;
+    font-size: xx-large;
+    font-family: 'Kalam', cursive;
+}
+
+.quiz-form {
+    width: 50%;
+    margin: auto;
+}
+
+.question-container {
+    padding: 1.5rem;
+    border: 1px solid black;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+
+#btn-submit {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+
+#output-message {
+    font-size: larger;
+}
+
+#height {
+    margin-bottom: 1rem;
+}
+
+#btn-calculate {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    font-size: large;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1rem;
+}
+
+#btn-triangle {
+    display: block;
+    font-size: large;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.angles {
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2rem 1rem;
+    color: white;
+    border-top-right-radius: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.footer-head {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link {
+    color: white;
+}
+
+.quiz-footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2rem 1rem;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+
+
