@@ -10,7 +10,7 @@ function calculateHypotenuse(){
     var hypotenuseSquare = base + height;
     var hypotenuse = Math.sqrt(hypotenuseSquare);
     outputMessage.style.display = "block";
-    outputMessage.innerText = "The Length of Hypotenuse is "+ hypotenuse + " cm²";
+    outputMessage.innerText = "The Length of Hypotenuse is "+ hypotenuse + " cm";
 }
 
 buttonCalculate.addEventListener("click",calculateHypotenuse);
